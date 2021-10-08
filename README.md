@@ -9,7 +9,7 @@ Just follow these instructions to run the application:
 Clone the repository.
 
 ```
-    git clone
+    git clone git@github.com:Rammina/launch.git
 ```
 
 After that, go inside the project directory.
