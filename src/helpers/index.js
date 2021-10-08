@@ -16,7 +16,6 @@ export const errorHandler = (dispatch, err, errorType) => {
 };
 
 // Date time helpers
-
 export const getLaunchDateString = (dateUtc) => {
   return dateUtc ? formatDistanceToNowStrict(dateUtc) : null;
 };

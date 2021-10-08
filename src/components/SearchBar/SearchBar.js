@@ -3,7 +3,6 @@ import React, { useState } from "react";
 
 import { useDispatch } from "react-redux";
 // Non-package imports
-import history from "browserHistory";
 import { getFlightList } from "redux/actions";
 // import "./SearchBar.scss";
 

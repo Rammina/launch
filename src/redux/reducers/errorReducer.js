@@ -8,7 +8,6 @@ const INITIAL_STATE = {
   id: null,
 };
 
-//TODO: might need to change the structure of this
 const errorReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case ActionTypes.RETURN_ERRORS:

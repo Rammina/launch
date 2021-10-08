@@ -1,4 +1,3 @@
-// this just contains a list of all projects (not specific to one account only)
 import { ActionTypes } from "../actions";
 
 const initialState = [];

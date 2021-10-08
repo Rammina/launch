@@ -1,6 +1,5 @@
 // package imports
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 // non- package imports
 import { getLaunchDateString } from "helpers";
