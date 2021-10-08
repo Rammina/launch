@@ -11,7 +11,6 @@ export const getFlightList =
     const queryString = `limit=${limit || 10}${
       mission_name ? `&mission_name=${mission_name}` : ""
     }`;
-    console.log(queryString);
     serverRest
       .get(`?${queryString}`)
       .then((res) => {
