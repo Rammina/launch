@@ -1,0 +1,34 @@
+@import "~styles/_variables";
+
+.error-page {
+  & h2 {
+    color: $dangerTextColor;
+  }
+  &.button-container {
+    margin-top: 2rem;
+  }
+}
+
+.error-page__ {
+  &p {
+    margin-top: 1rem;
+  }
+
+  &message-container {
+    padding: 0 1rem;
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+
+  &link {
+    background-color: #0000;
+    color: hsl(195, 18%, 13%);
+    border: 2px solid hsl(195, 18%, 13%);
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    &:hover {
+      background-color: #0001;
+    }
+  }
+}
